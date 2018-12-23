@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Controller.cs" />
      <Compile Include="Assets\Scripts\Director.cs" />
+     <Compile Include="Assets\Scripts\Rotate.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/unity project/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

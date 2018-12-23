@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -30,28 +30,28 @@ public class Controller : MonoBehaviour, Director.ISceneController
             new Vector3(0, 10, 0), Quaternion.identity);
         Mercury = Instantiate<Transform>(
             Resources.Load<Transform>("prefabs/Mercury"),
-            new Vector3(4, 10, 0), Quaternion.identity);
+            new Vector3(14, 10, 0), Quaternion.identity);
         Venus = Instantiate<Transform>(
             Resources.Load<Transform>("prefabs/Venus"),
-            new Vector3(7, 10, 0), Quaternion.identity);
+            new Vector3(17, 10, 0), Quaternion.identity);
         Earth = Instantiate<Transform>(
             Resources.Load<Transform>("prefabs/Earth"),
-            new Vector3(10, 10, 0), Quaternion.identity);
+            new Vector3(20, 10, 0), Quaternion.identity);
         Mars = Instantiate<Transform>(
             Resources.Load<Transform>("prefabs/Mars"),
-            new Vector3(15, 10, 0), Quaternion.identity);
+            new Vector3(25, 10, 0), Quaternion.identity);
         Jupiter = Instantiate<Transform>(
             Resources.Load<Transform>("prefabs/Jupiter"),
-            new Vector3(52, 10, 0), Quaternion.identity);
+            new Vector3(62, 10, 0), Quaternion.identity);
         Saturn = Instantiate<Transform>(
             Resources.Load<Transform>("prefabs/Saturn"),
-            new Vector3(96, 10, 0), Quaternion.identity);
+            new Vector3(106, 10, 0), Quaternion.identity);
         Uranus = Instantiate<Transform>(
             Resources.Load<Transform>("prefabs/Uranus"),
-            new Vector3(192, 10, 0), Quaternion.identity);
+            new Vector3(202, 10, 0), Quaternion.identity);
         Neptune = Instantiate<Transform>(
             Resources.Load<Transform>("prefabs/Neptune"),
-            new Vector3(301, 10, 0), Quaternion.identity);
+            new Vector3(311, 10, 0), Quaternion.identity);
 
         //named the sphere
         Sun.name = "Sun";
